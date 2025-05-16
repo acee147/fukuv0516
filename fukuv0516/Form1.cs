@@ -10,6 +10,8 @@ namespace fukuv0516
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Top = label1.Top - 20;
+            label1.Text = "è„";
+            label1.ForeColor = Color.Blue;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -21,16 +23,22 @@ namespace fukuv0516
         private void button2_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left - 20;
+            label1.Text = "ç∂";
+            label1.ForeColor = Color.Green;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left + 20;
+            label1.Text = "âE";
+            label1.ForeColor = Color.Purple;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             label1.Top = label1.Top + 20;
+            label1.Text = "â∫";
+            label1.ForeColor = Color.Orange;
         }
     }
 }
